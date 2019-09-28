@@ -11,11 +11,46 @@ Com a popularização da internet, evolução dos celulares e demanda por dados,
 
 *Necessário abordar um pouqinho mais sobre o crescimento do IoT*
 
+## WWAN 
+
+WAN (Wide Area Network) é um tipo de rede que abrange uma grande área podendo atingir ou cobrir desde um estado ou até mesmo um país inteiro.
+A história da WAN começa em 1965 quando Lawrence Roberts e Thomas Merril ligaram dois computadores, um TX-2 em Massachussets a um Q-32 na Califórnia, através de uma linha telefônica de baixa velocidade, criando a primeira rede de área alargada (WAN).[http://webeduc.mec.gov.br/linuxeducacional/manuais/Tecnologia%20Wireless.pdf]
+
+Um dos principais motivos para a criação dessa rede é que era necessário um meio mais rápido, seguro e de maior alcance para que, principalmente as empresas, pudessem passar e trocar informações, pois a rede LAN 1 já não supria certas necessidades. 
+
+Já a WWAN (Wireless Wide Area Network) são redes sem-fio que abrangem geograficamente uma grande área como países e continentes. Sua aplicação mais comum é a rede de telefonia.
+
+Com a popularização da internet, evolução dos celulares e demanda por dados, as redes sem-fio tornaram-se essenciais no cotidiano já que estamos sempre conectados. Neste trabalho falaremos sobre as gerações desta comunicação sem fio e abordaremos o que está sendo feito no 5G, que surgiu/surgirá especificamente por conta do IoT.
+
+### Vantagens 
+
+* Fornece cobertura sem fio regional, nacional e global.
+* Oferecer melhor segurança em relação à WLAN (Wireless Local Area Network), graças à criptografia de 128 bits.
+* Utiliza tecnologia de rede para transferir os dados com segurança ou estabelecer conexão com a Internet.
+* Quase todas as sub-redes são do tipo Store-and-Forward (armazena e encaminha). Essas redes realizam a tarefa de armazenar temporariamente as mensagens recebidas em buffers internas e uma vez completas essas mensagens são encaminhadas para o salto seguinte até chegar ao destino final.
+* Ideal para usuários fora de casa que precisam se conectar em qualquer lugar dentro da própria área de cobertura. 
+
+### Desvantagens
+
+* Qualidade de serviço: menor que a das redes cabeadas. 
+* Custo: o preço se comparado, supera as redes cabeadas.
+* Segurança: os canais sem fio são mais suscetíveis a interceptores não desejados, as ondas de rádio na transmissão de dados podem interferir em equipamentos de alta tecnologia, como os utilizados em hospitais.
+* Baixa transferência de dados: se novamente comparada com as redes cabeadas, ela ainda é muito baixa.
+
 ## Sistemas de celulares, a evolução do "G"
 
 *Opcional. Pode-se colocar mais informações nos subtópicos*
 
-Descreveremos neste tópico um pouco sobre cada geração do sistema de comunicação.
+Descreveremos neste tópico um pouco sobre cada geração do sistema de comunicação. Esse tipo de rede usa o padrão 802.20 e é qualificado como:
+
+* 2G - GSM (Global System for Mobile Communications ou Sistema Global para Comunicações Móveis);
+* 2.5G - GPRS (General Packet Radio Services ou Serviços de Rádio de Pacote Geral);
+* 2.75G - EDGE (Enhanced Data GSM Environment ou Ambiente de Dados GSM Melhorado);
+* 3G - UMTS (Universal Mobile Telecommunications Service ou Serviço Universal de Telecomunicações Móveis);
+* 3.5G - HSPA (High Speed Packet Access).
+* 4G - WiMAX e LTE (Long Term Evolution)
+
+Abaixo algumas características das evoluções desta rede.
 
 ### 1G (AMPS)
 
@@ -31,30 +66,27 @@ Diversos serviços foram disponibilizados com a tecnologia GSM. Dentre eles: SMS
 
 Ainda muito difundida, "a 3ª Geração (3G) de redes celulares teve como objetivo oferecer serviços de dados com altas taxas de transmissão" [http://www.teleco.com.br/3g_tecnologia.asp]. Nesta geração já é possível utilizar serviços de dados multimídia, vídeo e acesso a internet, com taxas maiores que 256 kbps [http://repositorio.unicamp.br/jspui/handle/REPOSIP/258935].
 
+O 3G veio para substituir o 2G, aumentando as taxas de transferência de dados, a qualidade da freqüência com menos ainda interferência e a área de alcance.
+
+As melhores vantagens principalmente das tecnologias GSM, GPRS e UMTS são: depois de ter feito uma conexão o aparelho pode ser movimentado para diferentes áreas de cobertura sem que haja perda do sinal de transmissão entre as reconexões; a alta taxa de transmissão pode ser muito aproveitada para conferências e apresentações que necessitam de áudio e som, pois a rede WWAN oferece além de uma alta segurança, praticamente não há perigo de perda de sinal ou desconexão.
+
 ### 4G (Long Term Evolution)
 
 Com a demanda por acesso a internet crescendo no mundo todo foi necessário melhorar a rede de comunicação reduzindo seu "custo por bit" e aumentando suas taxas de comunicação. A rede 4G é totalmente baseada no protocolo IP e é considerada (e vendida) como uma banda larga. Possui taxas nominais de 100 Mbps para DownLink e 50 Mbps para 50 Mbps [http://www.teleco.com.br/4g_tecnologia.asp]
 
+### 5G
 
-## IoT e sua Demanda
+Com o crescimento de dispositivos conectados à rede, principalmente os IoT, a demanda por uma rede de comunicação melhor já é uma realidade. Quanto a isso, a 3GPP já iniciou o processo de estudo e implementanção da rede 5G. Atualmente estamos no release 15 de desenvolvimento conforme figura abaixo:
 
-### Internet das Coisas (IoT)
+![http://www.3gpp.org/images/articleimages/ongoing_releases_900px.JPG]
 
-*Falar rapidamente sobre o que é internet das coisas. Dar foco a assuntos de comunicação, rede e internet*
+A previsão de entrega desta nova tecnologia é para 2020.
 
-### Crescimento e Demanda
+Segundo o site Teleco[http://www.teleco.com.br/5g_tecnologia.asp], "O objetivo da 5G é viabilizar as seguintes aplicações: IoT Massivo,IoT (aplicações críticas), Acesso Banda Larga Wireless Fixo (1 Gbps), aumentar a capacidade de forma a baixar o custo por bit da banda larga móvel". O mesmo site apresenta uma comparação entre a rede 4G e a rede 5G
 
-*Falar sobre o crescimento do IoT, com números se possível. No scholar.google.com tem diversos artigos sobre*
+ 
+TABELA [http://www.teleco.com.br/5g_tecnologia.asp]
 
-## 5G
-
-### Estado da arte
-
-*Falar sobre o que já existe do 5G*
-
-### Projeção e cronograma
-
-*Procurar algumas referências sobre o cronograma igual ao que tem no site http://www.teleco.com.br/5g_tecnologia.asp*
 
 ## Conclusão
 
@@ -70,9 +102,4 @@ https://www.gta.ufrj.br/grad/10_1/movel/evolucao.html
 
 http://www.teleco.com.br/3g_tecnologia.asp
 
-
-Já é uma realidade [http://www.3gpp.org/news-events/3gpp-news/1614-sa_5g], principalmente se levarmos em conta a crescente do IoT (Internet of Things). Abaixo o cronograma de desenvolvimento estipulado pela 3GPP, responsável pela padronização da evolução do GSM para 3G/4G.
-
-[http://www.teleco.com.br/5g_tecnologia.asp]Tabela
-
-% Falta falar só mais um pouco do 5G. Separar em tópicos e correr para o abraço
+STORCK, Carlos Renato et al. PROPOSTA DE UM FRAMEWORK BASEADO EM MINERAÇÃO DE DADOS PARA REDES 5G. Revista Eletrônica de Sistemas de Informação, v. 16, n. 2, 2017.
